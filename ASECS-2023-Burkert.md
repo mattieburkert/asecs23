@@ -13,10 +13,14 @@ This post was a starting point for [my graduate seminar in winter 2022](https://
 
 
 ## Where your DH project lives
+
 If I say "server," you might think of something like this: 
 ![a long row of server stacks recedes into the distance](https://live.staticflickr.com/3519/3462607995_150a6b2624_b.jpg)
+
 ["Server room"](https://www.canva.com/link?target=https%3A%2F%2Fopenverse.org%2Fimage%2F70aeec43-476c-4a72-ad86-0b35aa6f39be%3Fq%3Dserver&design=DAFcSv4hDQs&accessRole=owner&linkSource=document) by torkildr is licensed under [CC BY-SA 2.0](https://www.canva.com/link?target=https%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby-sa%2F2.0%2F%3Fref%3Dopenverse&design=DAFcSv4hDQs&accessRole=owner&linkSource=document).
+
 ---
+
 But a server is just a physical computer that hosts the files for a website and makes them available to users over the Internet. 
 
 ![halfway open laptop with handwritten sign taped to it, reading "This is a server! (yes, really) DO NOT CLOSE LID!!"](https://pbs.twimg.com/media/Fiw1bTMagAAFQ2m?format=png&name=small) Tweeted by [nixcraft](https://twitter.com/nixcraft/status/1597710750789029888?ref_src=twsrc%5Etfw), November 29, 2022
@@ -74,7 +78,7 @@ Last spring, I worked with Digital Scholarship Librarian Kate Thornhill to devel
 - WordPress is a Content Management System (akin to Drupal, another popular CMS). 
 - Like Omeka, it is open source, and your institution may have a locally managed instance that allows you to leverage existing hosting resources.
 - Here's a site my students developed on our institutional multi-site, drawing on materials hosted in our GitHub-hosted repository: blogs.uoregon.edu/english470s22
-- Again, as with Omeka, you can create a WordPress.org site and host it through a third party (like Reclaim Hosting) or pay for hosting through the commercial site, WordPress.com. That's how I host my personal site: mattieburkert.com 
+- Again, as with Omeka, you can create a WordPress.org site and host it through a third party (like Reclaim Hosting) or pay for hosting through the commercial site, WordPress.com. That's how I host my personal site: https://www.mattieburkert.com 
 
 ### Website Builders
 Other website builders like Weebly, Wix, Squarespace, and Canva offer site building and hosting in one, with a focus on design and ease of use, but they are less flexible and more geared towards small businesses and entrepreneurs than academics. 
