@@ -24,6 +24,7 @@ If I say "server," you might think of something like this:
 But a server is just a physical computer that hosts the files for a website and makes them available to users over the Internet. 
 
 ![halfway open laptop with handwritten sign taped to it, reading "This is a server! (yes, really) DO NOT CLOSE LID!!"](https://pbs.twimg.com/media/Fiw1bTMagAAFQ2m?format=png&name=small) 
+
 Tweeted by [nixcraft](https://twitter.com/nixcraft/status/1597710750789029888?ref_src=twsrc%5Etfw), November 29, 2022
 
 ---
