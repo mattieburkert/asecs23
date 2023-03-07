@@ -22,7 +22,7 @@ But a server is just a physical computer that hosts the files for a website and 
 ![halfway open laptop with handwritten sign taped to it, reading "This is a server! (yes, really) DO NOT CLOSE LID!!"](https://pbs.twimg.com/media/Fiw1bTMagAAFQ2m?format=png&name=small) Tweeted by [nixcraft](https://twitter.com/nixcraft/status/1597710750789029888?ref_src=twsrc%5Etfw), November 29, 2022
 
 ---
-Web hosting is probably the #1 obstacle to the sustainability of DH projects – in both senses of the word. Web hosting is also a major pain point for newcomers to DH, especially in the US context. 
+Web hosting is probably the #1 obstacle to the sustainability of DH projects – in both senses of the word.[^1] Web hosting is also a major pain point for newcomers to DH, especially in the US context.
 
 When thinking about publishing a DH project to a website, you might wonder: 
 - Where should I host my website? 
@@ -35,7 +35,7 @@ When thinking about publishing a DH project to a website, you might wonder:
 ## Common web hosting models and example projects
 ### Static content 
 **Best for Files**: Institutional webspace
-- You may have access to host files through an individual institutional webspace; to do so, you'll need to set up FTP using a client like FileZilla. - Here's where I store high-resolution images of archival materials so I and my students can work with them together: https://pages.uoregon.edu/mburkert/
+- You may have access to host files through an individual institutional webspace; to do so, you'll need to set up FTP using a client like FileZilla. - I use [my institutional webspace](https://pages.uoregon.edu/mburkert/) store high-resolution images of archival materials so I and my students can work with them together:
 
 ![simple file directory under the heading "Index of /~mburkert"](https://github.com/mattieburkert/asecs23/blob/main/webspace.JPG?raw=true)  
 
@@ -49,51 +49,55 @@ When thinking about publishing a DH project to a website, you might wonder:
 
 *Tip: many (if not most) publishing contracts allow you to repository a copy of your article or chapter in order to un-paywall it.*
 
-## Lightweight, static websites
+## Digital Exhibits and Collections
+
+### Omeka 
+- Omeka.org is an open-source web publishing platform designed for digital collections and exhibits
+- Your institution may have a locally managed instance where you can host your site   
+- If not, you can pay for the hosted option at Omeka.net
+- You can also host it yourself using a service like ReclaimHosting.com; again, some colleges and universities have institutional Reclaim subscriptions for individual faculty and staff to launch sites outside of the yourcollege-dot-edu subdomain
+
+
+Here's an example of an institutionally-hosted Omeka site my students created: exhibits.usu.edu/exhibits/show/hauntedbyhistory
+
+![banner reading "Haunted by History: The Deep Eighteenth Century" surrounded by thumbnails of archival images](https://github.com/mattieburkert/asecs23/blob/main/haunted-banner.jpg?raw=true) 
+
+### CollectionBuilder
+A lightweight, sustainable, and free-to-host alternative to Omeka is [CollectionBuilder](https://collectionbuilder.github.io/), a static site generator.  
+
+Last spring, I worked with Digital Scholarship Librarian Kate Thornhill to develop a CollectionBuilder site, [Environmental Justice Research Repository](https://learn-static.github.io/eng-470/), which houses digitized primary sources curated and catalogued by students in my digital humanities capstone course. We worked in collaboration with a local environmental nonprofit called Beyond Toxics to identify primary sources related to the history of environmental racism in the Eugene-Springfield, Oregon area, which they are now using in their campaigns. The site deploys from my free GitHub Pages account, but Beyond Toxics has also registered the domain oregonenvironmentaljustice.org to redirect there.
 
 ![full-length screenshot of the homepage of https://learn-static.github.io/eng-470/ ](https://github.com/mattieburkert/asecs23/blob/main/learn-static.github.io_eng-470_.png?raw=true)
-Environmental Justice Research Repository: https://learn-static.github.io/eng-470/
 
-This was a collection of digitized primary sources my students curated and catalogued for a community partner, Beyond Toxics. I worked with Digital Scholarship Librarian Kate Thornhill to build the site using CollectionBuilder (a static site generator developed at University of Idaho) and deployed from a free, personally owned GitHub Pages account.
-
-## Omeka 
-- Omeka is an open-source web publishing platform designed for digital collections and exhibits: https://omeka.org/
-- Your institution may have a locally managed instance where you can host your site:   
-- If not, you can pay for the hosted option at Omeka.net or host it yourself using a service like Bluehost or Digital Ocean. 
-- Reclaim Hosting is another option and is geared at educators and students; your institution may have a subscription.
-
-Example of an institutionally-hosted Omeka site: http://exhibits.usu.edu/exhibits/show/hauntedbyhistory/
-
-![full-size screenshot of Haunted by History landing page, with a banner featuring a collage-style arrangement of archival images](https://github.com/mattieburkert/asecs23/blob/main/exhibits.usu.edu_exhibits_show_hauntedbyhistory.png?raw=true) 
-
-## WordPress
+## Blogs and Websites 
+### WordPress
 - WordPress is a Content Management System (akin to Drupal, another popular CMS). 
 - Like Omeka, it is open source, and your institution may have a locally managed instance that allows you to leverage existing hosting resources.
-- Here's a site my students developed on our institutional multi-site, drawing on materials hosted in our GitHub-hosted repository: https://blogs.uoregon.edu/english470s22/
-- Again, as with Omeka, you can create a WordPress.org site and host it through a third party (like Reclaim Hosting) or pay for hosting through the commercial site, WordPress.com. That's how I host my personal site: https://mattieburkert.com/ 
+- Here's a site my students developed on our institutional multi-site, drawing on materials hosted in our GitHub-hosted repository: blogs.uoregon.edu/english470s22
+- Again, as with Omeka, you can create a WordPress.org site and host it through a third party (like Reclaim Hosting) or pay for hosting through the commercial site, WordPress.com. That's how I host my personal site: mattieburkert.com 
 
-## Website Builders
+### Website Builders
 Other website builders like Weebly, Wix, Squarespace, and Canva offer site building and hosting in one, with a focus on design and ease of use, but they are less flexible and more geared towards small businesses and entrepreneurs than academics. 
 
 ## Custom Applications 
 A common architecture for serving an open-source website is a LAMP stack:
 - Linux - operating system
-- Apache[^1] - HTTP web server software 
+- Apache[^2] - HTTP web server software 
 - MySQL (or MariaDB, MongoDB, etc.) - database server software
 - PHP (or Perl or Python) - scripting language
 
-An example of a site built this way is The London Stage Database: https://londonstagedatabase.uoregon.edu/. 
+An example of a site built this way is The London Stage Database: londonstagedatabase.uoregon.edu. 
 
 ![screenshot of London Stage Database landing page, a keyword search bar superimposed on a collage of archival images](https://github.com/mattieburkert/asecs23/blob/main/londonstagedatabase.uoregon.edu_.png?raw=true)
 
 LSDB deploys from [GitHub](https://github.com/orgs/LondonStageDB/) to a UO-owned virtual server running a LAMP stack. It had to be migrated from Utah State University to UO when I changed jobs in 2020. (Story time!)
 
 ## Why it matters
-Returning to the digital edition of The Female American (https://anthologydev.lib.virginia.edu/work/Winkfield/winkfield-female-american)...
+Returning to the [digital edition of The Female American](https://anthologydev.lib.virginia.edu/work/Winkfield/winkfield-female-american) ...
 
-My students and I knew that we had sent electronic files to Tonya Howe at Marymount University to be incorporated into Literature in Context, an open-access anthology curated by students and faculty. As far as we could determine, the site was hosted on servers at the University of Virginia (assuming that it sits on a physical server stack at UVA rather than on the virtual machines that are increasingly central to university computing infrastructures, the precise geographic distribution of which is often closely guarded by vendors like Amazon and Google).
+My students and I created the TEI-XML files for our edition and sent them to [Literature in Context](anthologydev.lib.virginia.edu), an open-access anthology project started by John O'Brien and Tonya Howe. As far as we could determine, the site was hosted on servers at the University of Virginia (assuming that it sits on a physical server stack at UVA rather than on the virtual machines that are increasingly central to university computing infrastructures, the precise geographic distribution of which is often closely guarded by vendors like Amazon and Google).
 
-Inspired by work like “Antidote” (Marguerite Hemmings, LaJuné McMillan, Salome Asega, and Amber Starks, https://www.antidote.space/), we wanted to draw attention to both the materiality and the disavowal of materiality surrounding digital experiences of identity and place. 
+Inspired by work like “Antidote” (Marguerite Hemmings, LaJuné McMillan, Salome Asega, and Amber Starks, https://antidote.space), we wanted to draw attention to both the materiality and the disavowal of materiality surrounding digital experiences of identity and place. 
 
 ---
 
@@ -106,4 +110,7 @@ Here's what we ended up writing together:
 > 
 > We recognize the technological infrastructure that has allowed us to create this digital edition, including the extraction of rare earth minerals and human labor to produce electronic devices and the use of fossil fuels to power those devices. We encourage readers to account for the material conditions of their access to this edition as a site of entanglement with and indebtedness to Indigenous communities whose stewardship of the land stretches back to times immemorial and persists to this day.
 
-[^1]: Members of the Natives in Tech group have recently called on the Apache Software Foundation to change its name: https://blog.nativesintech.org/apache-appropriation/
+
+
+[^1]: For more on DH sustainability, check out [The Socio-Technical Sustainability Roadmap](http://sustainingdh.net) & [The Endings Project](https://endings.uvic.ca). For a somewhat recent dust-up on the subject, see Johanna Drucker, [“Sustainability and Complexity"](https://doi.org/10.1093/llc/fqab025) and [Andromeda Yelton's legendary clapback](https://web.archive.org/web/20211122202905/https:/threadreaderapp.com/thread/1458445616409939971.html). For my own thoughts, see my articles in [*Digital Humanities Quarterly*](https://web.archive.org/web/20211122202905/https:/threadreaderapp.com/thread/1458445616409939971.html) and [*SECC*](https://muse.jhu.edu/article/883244) on the origins of the London Stage Database. 
+[^2]: Members of the Natives in Tech group have recently called on the Apache Software Foundation to change its name: https://blog.nativesintech.org/apache-appropriation/
