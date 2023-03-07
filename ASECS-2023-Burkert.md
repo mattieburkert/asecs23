@@ -117,4 +117,4 @@ Here's what we ended up writing together:
 
 
 [^1]: For more on DH sustainability, check out [The Socio-Technical Sustainability Roadmap](http://sustainingdh.net) & [The Endings Project](https://endings.uvic.ca). For a somewhat recent dust-up on the subject, see Johanna Drucker, [“Sustainability and Complexity"](https://doi.org/10.1093/llc/fqab025) and [Andromeda Yelton's legendary clapback](https://web.archive.org/web/20211122202905/https:/threadreaderapp.com/thread/1458445616409939971.html). For my own thoughts, see my articles in [*Digital Humanities Quarterly*](http://www.digitalhumanities.org/dhq/vol/11/3/000321/000321.html) and [*SECC*](https://muse.jhu.edu/article/883244) on the origins of the London Stage Database. 
-[^2]: Members of the Natives in Tech group have recently called on the Apache Software Foundation to change its name: https://blog.nativesintech.org/apache-appropriation/
+[^2]: Members of the Natives in Tech group have [recently called on the Apache Software Foundation to change its name](https://blog.nativesintech.org/apache-appropriation/).
