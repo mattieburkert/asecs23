@@ -78,7 +78,7 @@ Last spring, I worked with Digital Scholarship Librarian Kate Thornhill to devel
 - WordPress is a Content Management System (akin to Drupal, another popular CMS). 
 - Like Omeka, it is open source, and your institution may have a locally managed instance that allows you to leverage existing hosting resources.
 - Here's a site my students developed on our institutional multi-site, drawing on materials hosted in our GitHub-hosted repository: blogs.uoregon.edu/english470s22
-- Again, as with Omeka, you can create a WordPress.org site and host it through a third party (like Reclaim Hosting) or pay for hosting through the commercial site, WordPress.com. That's how I host my personal site: https://www.mattieburkert.com 
+- Again, as with Omeka, you can create a WordPress.org site and host it through a third party (like Reclaim Hosting) or pay for hosting through the commercial site, WordPress.com. That's how I host [my personal site](https://www.mattieburkert.com).
 
 ### Website Builders
 Other website builders like Weebly, Wix, Squarespace, and Canva offer site building and hosting in one, with a focus on design and ease of use, but they are less flexible and more geared towards small businesses and entrepreneurs than academics. 
@@ -101,7 +101,7 @@ Returning to the [digital edition of The Female American](https://anthologydev.l
 
 My students and I created the TEI-XML files for our edition and sent them to [Literature in Context](anthologydev.lib.virginia.edu), an open-access anthology project started by John O'Brien and Tonya Howe. As far as we could determine, the site was hosted on servers at the University of Virginia (assuming that it sits on a physical server stack at UVA rather than on the virtual machines that are increasingly central to university computing infrastructures, the precise geographic distribution of which is often closely guarded by vendors like Amazon and Google).
 
-Inspired by work like “Antidote” (Marguerite Hemmings, LaJuné McMillan, Salome Asega, and Amber Starks, https://antidote.space), we wanted to draw attention to both the materiality and the disavowal of materiality surrounding digital experiences of identity and place. 
+Inspired by work like [“Antidote”](https://antidote.space) (Marguerite Hemmings, LaJuné McMillan, Salome Asega, and Amber Starks), we wanted to draw attention to both the materiality and the disavowal of materiality surrounding digital experiences of identity and place. 
 
 ---
 
