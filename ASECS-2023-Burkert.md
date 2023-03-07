@@ -79,8 +79,7 @@ Last spring, I worked with Digital Scholarship Librarian Kate Thornhill to devel
 ## Blogs and Websites 
 ### WordPress
 - WordPress is a Content Management System (akin to Drupal, another popular CMS). 
-- Like Omeka, it is open source, and your institution may have a locally managed instance that allows you to leverage existing hosting resources.
-- Here's a site my students developed on our institutional multi-site, drawing on materials hosted in our GitHub-hosted repository: blogs.uoregon.edu/english470s22
+- Like Omeka, it is open source, and your institution may have a locally managed instance that allows you to leverage existing hosting resources. For example, my students developed [a WordPress site on our institutional multi-site (UO Blogs)](https://blogs.uoregon.edu/english470s22), drawing on materials hosted in our GitHub-hosted repository to create their own digital storytelling projects.
 - Again, as with Omeka, you can create a WordPress.org site and host it through a third party (like Reclaim Hosting) or pay for hosting through the commercial site, WordPress.com. That's how I host [my personal site](https://www.mattieburkert.com).
 
 ### Website Builders
