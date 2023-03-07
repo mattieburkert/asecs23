@@ -39,21 +39,22 @@ When thinking about publishing a DH project to a website, you might wonder:
 - What will happen if I change institutions, lose funding, retire, etc.?
 
 ## Common web hosting models and example projects
+
 ### Static content 
+**Best for offprints and datasets**: Institutional or disciplinary repositories
+
+- For example, I deposited versions of the London Stage Database files in [Minds@UW](https://minds.wisconsin.edu/handle/1793/71768) when I was at University of Wisconsin-Madison and in [Digital Commons](https://digitalcommons.usu.edu/all_datasets/77/) when I was at Utah State University. 
+- The latest versions of the dataset and code base are stored in the scientific data repository [Zenodo](https://doi.org/10.5281/zenodo.7328444), on servers at CERN. 
+- Other popular options include the [Harvard Dataverse](https://dataverse.harvard.edu/) and [Humanities Commons](https://hcommons.org/).
+
+*Tip: many (if not most) publishing contracts allow you to repository a copy of your article or chapter in order to un-paywall it.*
+
 **Best for Files**: Institutional webspace
-- You may have access to host files through an individual institutional webspace; to do so, you'll need to set up FTP using a client like FileZilla. - I use [my institutional webspace](https://pages.uoregon.edu/mburkert/) store high-resolution images of archival materials so I and my students can work with them together:
+- You may have access to host files through an individual institutional webspace; to do so, you'll need to set up FTP using a client like FileZilla. 
+- I use [my institutional webspace](https://pages.uoregon.edu/mburkert/) store high-resolution images of archival materials so I and my students can work with them together:
 
 ![simple file directory under the heading "Index of /~mburkert"](https://github.com/mattieburkert/asecs23/blob/main/webspace.JPG?raw=true)  
 
-
-**Best for offprints and datasets**: Institutional or disciplinary repositories
-
-- Minds@UW: https://minds.wisconsin.edu/handle/1793/71768 
-- Digital Commons: https://digitalcommons.usu.edu/all_datasets/77/
-- Humanities Commons: https://hcommons.org/ 
-- Zenodo:  https://doi.org/10.5281/zenodo.7328444
-
-*Tip: many (if not most) publishing contracts allow you to repository a copy of your article or chapter in order to un-paywall it.*
 
 ## Digital Exhibits and Collections
 
