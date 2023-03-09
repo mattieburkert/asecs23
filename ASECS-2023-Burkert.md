@@ -59,10 +59,11 @@ When thinking about publishing a DH project to a website, you might wonder:
 ## Digital Exhibits and Collections
 
 ### Omeka 
-- Omeka.org is an open-source web publishing platform designed for digital collections and exhibits
+- [Omeka.org](https://omeka.org) is an open-source web publishing platform designed for digital collections and exhibits
 - Your institution may have a locally managed instance where you can host your site   
-- If not, you can pay for the hosted option at Omeka.net
-- You can also host it yourself using a service like ReclaimHosting.com; again, some colleges and universities have institutional Reclaim subscriptions for individual faculty and staff to launch sites outside of the yourcollege-dot-edu subdomain
+- If not, you can pay for the hosted option at [Omeka.net](https://omeka.net)
+- You can also host it yourself using a service like [Reclaim Hosting](https://reclaimhosting.com). 
+- Again, some colleges and universities have institutional Reclaim subscriptions for individual faculty and staff to launch sites outside of the yourcollege-dot-edu subdomain
 
 
 Here's an example of an institutionally-hosted Omeka site my students created: exhibits.usu.edu/exhibits/show/hauntedbyhistory
